@@ -1,0 +1,52 @@
+#showcase {
+    background-image: url("../../assets/AtlasBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.reloadBtn {
+    background-color: #333;
+    color: #fff;
+    font-weight: 1000;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.reloadBtn:hover {
+    background: peru;
+    color: #333;
+    transition: all 1000ms ease;
+}
+
+.card_wrapper {
+    height: 271px;
+    /* height: 242px; */
+    box-sizing: border-box;
+    background-image: url("../../assets/Card.jpg");
+    width: 20em;
+    /* width: 15em; */
+    margin: 0.25rem;
+    padding-bottom: 1em;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c5c5c5;
+    border-radius: 10px;
+    /* border-radius: 20px; */
+}
+
+.card_wrapper a {
+    text-decoration: none;
+}
